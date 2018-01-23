@@ -1,0 +1,44 @@
+IFBA-Instituto Federal da Bahia
+Luan Amaral Viana -431
+
+1.1-
+O mais interessante é o artigo “Mininet-WiFi: Emulating software-defined wireless networks” feito por: Ramon R. Fontes, Samira Afzal, Samuel H. B. Brito, Mateus A. S. Santos e Christian Esteve Rothenberg, pois o artigo mostra algumas diferenças entre o mininet e o mininet wi-fi, descreve suas funcionalidades, e mostra o motivo que levou a criação do mininet wi-fi.
+
+2.1-
+o atraso deu 0,113 ms e não houve perda de pacote pois estão no mesmo ponto de acesso.
+
+2.2-
+Results: ['10.5 Mbits/sec', '10.6 Mbits/sec']
+
+2.3-
+TxPower, potência transmitida pelo modem: 14; a wlan, componentes que fazem parte da lan: sta1-wlan0; ip, protocolo de rede local da sta1: 10.0.0.1/8; range, alcance da rede: 15; mac, interface de comunicação: 02:00:00:00:00:00; frequency: 2.412Hz; mode, modelo ou geração de rede: g; position: 1.0,0.0,0.0.
+
+3.1-
+O sta3 pois apena parte do seu sinal está dentro do alcance. Sim, mas de forma não eficaz.
+
+3.2-
+O modelo  Log-Normal Shadowing Propagation Loss Model o nível de sinal foi de -72dBm,pois esse modelo utiliza um método mais realista com o alcance do sinal.
+
+3.3-
+Em um ambiente que eu precisasse de precisão, pois esse modelo ele é mais realista.
+
+4.1-
+O Iperf de STA1 (-32dBm)  e STA3(-37dBm)  deu 18 Mbits/sec para ambos, ou seja, largura 0. A distância entre eles é de 50m.
+
+4.2-
+é um dos mecanismos de sensores na WLAN.
+
+5.1-
+Não, pois o sta1 saiu da área de alcance do ap1 e foi para a área do ap2
+
+5.2-
+Handover, ele funciona com uma estação móvel onde os nós também são móveis.
+
+6.1-
+Nada, pois eles não podem se comunicar sta1 está fora do alcance do ponto do sta3. Somente sta2 e sta3 se comunicam.
+
+6.2-
+“sta4 = net.addStation('sta4', position='35,140,0')” e “sta6 = net.addStation('sta6', position='80,140,0')”.
+
+6.3-
+Em projetos que eu precisasse de alto precisão, pois facilita a visualização das mudanças ocorridas.
